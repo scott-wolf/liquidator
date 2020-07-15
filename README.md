@@ -1,22 +1,3 @@
-<p align="center"><img src="https://s3.amazonaws.com/dydx-assets/logo_large_white.png" width="256" /></p>
-
-<div align="center">
-  <a href="https://circleci.com/gh/dydxprotocol/workflows/liquidator/tree/master" style="text-decoration:none;">
-    <img src="https://img.shields.io/circleci/project/github/dydxprotocol/liquidator.svg" alt='CI' />
-  </a>
-  <a href='https://hub.docker.com/r/dydxprotocol/liquidator' style="text-decoration:none;">
-    <img src='https://img.shields.io/badge/docker-container-blue.svg?longCache=true' alt='Docker' />
-  </a>
-  <a href='https://coveralls.io/github/dydxprotocol/liquidator' style="text-decoration:none;">
-    <img src='https://coveralls.io/repos/github/dydxprotocol/liquidator/badge.svg?t=toKMwT' alt='Coverage Status' />
-  </a>
-  <a href='https://github.com/dydxprotocol/solo/blob/master/LICENSE' style="text-decoration:none;">
-    <img src='https://img.shields.io/github/license/dydxprotocol/protocol.svg?longCache=true' alt='License' />
-  </a>
-  <a href='https://t.me/joinchat/GBnMlBb9mQblQck2pThTgw' style="text-decoration:none;">
-    <img src='https://img.shields.io/badge/chat-on%20telegram-9cf.svg?longCache=true' alt='Telegram' />
-  </a>
-</div>
 
 # dYdX Liquidator
 
@@ -30,9 +11,9 @@ Requires a running [docker](https://docker.com) engine.
 
 ```
 docker run \
-  -e WALLET_ADDRESS=0x2c7536E3605D9C16a7a3D7b1898e529396a65c23 \
-  -e WALLET_PRIVATE_KEY=0x4c0883a69102937d6231471b5dbb6204fe5129617082792ae468d01a3f362318 \
-  -e ETHEREUM_NODE_URL=https://mainnet.infura.io/v3/YOUR_INFURA_KEY \
+  -e WALLET_ADDRESS=  \
+  -e WALLET_PRIVATE_KEY=  \
+  -e ETHEREUM_NODE_URL=https://mainnet.infura.io/v3/ \
   -e SOLO_LIQUIDATIONS_ENABLED=true \
   -e PERP_LIQUIDATIONS_ENABLED=true \
   -e SOLO_EXPIRATIONS_ENABLED=false \
